@@ -1,0 +1,19 @@
+[
+    { "name": "Home", "path": "/home" },
+    {
+        "name": "About",
+        "path": "/about",
+        "subNav": [{
+                "name": "About Us",
+                "path": "/about-us"
+            },
+            {
+                "name": "Team",
+                "path": "/team"
+            }
+        ]
+    },
+    { "name": "Services", "path": "/service" },
+    { "name": "Page", "path": "/service" },
+    { "name": "Service", "path": "/service" }
+]

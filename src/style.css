@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply bg-accent-2 hover:bg-secondary  text-white rounded-full py-3 px-9 border-0 font-semibold text-lg h-auto;
+  }
+  .smart-container {
+    @apply px-4 xl:px-[6%];
+  }
+  :root {
+    --primary: #031d5a;
+    --secondary: #ff2c24;
+    --tertiary: #baedfe;
+    --accent: #333a79;
+    --accent-2: #ff4f48;
+    --accent-3: #f5ddd5;
+    --accent-4: #e7f9ff;
+    --body: #242424;
+  }
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: "Cormorant Garamond", serif !important;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
